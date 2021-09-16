@@ -1,0 +1,114 @@
+/* Sidebar styles */
+.sidebar {
+    border:  2.5px solid grey;
+	position: fixed;
+    left: 0;
+    width: 170px;
+    margin: 8em 1.5em 6em 13.8em;
+    line-height: 27.5px;
+    
+        } 
+.sidebar h2 {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    
+}
+.sidebar li {
+    border: 1px solid grey;
+    margin: 0 0.5em 1em 1em;
+    list-style:none;
+}
+
+.sidebar h2 {
+    color: black;
+    }
+    
+.sidebar a {
+    color: black;
+    }
+.sidebar a:hover {
+    color: orange;
+}
+
+/*footer styles */
+.footer {
+    bottom: 0;
+    position:fixed;
+    width: 64.4%;
+    height:90px;   
+    background:hsl(180, 60%, 81%);
+    text-align: center;
+    margin: 0 0 4em 2.7em;
+    }
+.footer h2 {
+    font-size: 18px;
+}
+
+
+
+/*Header styles */
+header {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 64.7%;
+    display: inline-block;
+    text-align: center;
+    height:90px; 
+    margin-top: 3.5em;
+    margin-left: 2.7em;
+            }
+        
+.header-list {
+    float: right;
+    margin-left: 2em;
+    }
+.header h2 {
+    font-size: 18px;
+}
+/* Body styles */
+.unloaded {
+    border: 2.5px solid rgb(144, 241, 144);
+    padding: 5em 2em 13.2em;
+    margin: 8em 0 20em 15.7em;
+    height: 110px;
+    position: absolute;
+    width: 47%;
+    text-align: center;
+     }
+.unloaded h1 {
+    font-size: 25px;
+    padding: 1.5em 3.5em 1.5em 0;
+}
+.main {
+    height: 100%;
+    width : 100%;
+    
+}
+.main h1 {
+    padding-left: 8em;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    }
+body h1 {
+    color:black;
+    text-align: center;
+    padding-top: 5em;
+}
+
+/*HTML styles */
+html {
+	height: 100%;
+}
+.baste {
+    height: 90%;
+    width: 70%;
+    border: 2px solid grey;
+    margin: 2em 0 0 11em;
+    }
+
